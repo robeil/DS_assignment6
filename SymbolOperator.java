@@ -1,4 +1,4 @@
-package CS221Course.src.DS_assignment6;
+package Jan22InClassDemos.src.DS_assignment6;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -23,10 +23,10 @@ public class SymbolOperator<E> {
                   //pushing or adding all the opening bracket into stack
                   stack.push(z);
               }
-              //incase the given input does not contains an opening
+              //in case the given input does not contain an opening
               if (stack.empty())
                   return false;
-              //declaring a character variable to hold the poped emelent
+              //declaring a character variable to hold the poped element
               char hc;
               switch (z) {
                   case ')':
